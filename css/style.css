@@ -1,0 +1,204 @@
+body{
+    font-family: Arial, sans-serif;
+}
+
+.hero-section{
+
+    height: 90vh;
+
+    background-image:
+    linear-gradient(rgba(0,0,0,0.5),
+    rgba(0,0,0,0.5)),
+
+    url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e');
+
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-section h1{
+    font-size: 70px;
+}
+
+.hero-section p{
+    font-size: 24px;
+}
+/* Navbar */
+
+.navbar-brand{
+    font-size: 28px;
+    letter-spacing: 1px;
+}
+
+
+/* Cards */
+
+.card{
+    border: none;
+    transition: 0.4s;
+    overflow: hidden;
+    border-radius: 15px;
+}
+
+.card:hover{
+    transform: translateY(-10px);
+    box-shadow: 0px 10px 25px rgba(0,0,0,0.3);
+}
+
+
+/* Card Images */
+
+.card img{
+    transition: 0.4s;
+}
+
+.card:hover img{
+    transform: scale(1.05);
+}
+
+
+/* Buttons */
+
+.btn-warning{
+    transition: 0.3s;
+    font-weight: bold;
+}
+
+.btn-warning:hover{
+    background-color: black;
+    color: white;
+}
+
+
+/* Footer */
+
+footer{
+    margin-top: 50px;
+}
+
+
+/* Social Icons */
+
+.bi{
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.bi:hover{
+    color: orange;
+}
+
+
+/* Form Inputs */
+
+.form-control,
+.form-select{
+    border-radius: 10px;
+    padding: 10px;
+}
+
+
+/* Section Heading */
+
+h1{
+    color: #222;
+}
+/* Search Box */
+
+/* Search Box */
+
+.search-box{
+    margin-top: 40px;
+}
+
+.search-box .card{
+    border-radius: 20px;
+    background: white;
+}
+/* Gallery */
+
+.gallery-item{
+    overflow: hidden;
+    border-radius: 15px;
+}
+
+.gallery-item img{
+    transition: 0.5s;
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.gallery-item:hover img{
+    transform: scale(1.1);
+}
+/* Testimonials */
+
+.testimonial-card{
+    border-radius: 20px;
+    transition: 0.4s;
+}
+
+.testimonial-card:hover{
+    transform: translateY(-10px);
+}
+/* Statistics Section */
+
+.stats-section{
+
+    background:
+    linear-gradient(rgba(0,0,0,0.7),
+    rgba(0,0,0,0.7)),
+
+    url('https://images.unsplash.com/photo-1501785888041-af3ef285b470');
+
+    background-size: cover;
+    background-position: center;
+
+    padding: 80px 0;
+    margin-top: 50px;
+}
+
+.stats-section h1{
+    font-size: 50px;
+    font-weight: bold;
+    color: orange;
+}
+
+.stats-section p{
+    font-size: 20px;
+}
+/* Login Page */
+
+.login-section{
+
+    height: 100vh;
+
+    background:
+    linear-gradient(rgba(0,0,0,0.5),
+    rgba(0,0,0,0.5)),
+
+    url('https://images.unsplash.com/photo-1501785888041-af3ef285b470');
+
+    background-size: cover;
+    background-position: center;
+}
+/* Dark Mode */
+
+.dark-mode{
+    background-color: #121212;
+    color: white;
+}
+
+.dark-mode .card{
+    background-color: #1e1e1e;
+    color: white;
+}
+
+.dark-mode .navbar{
+    background-color: black !important;
+}

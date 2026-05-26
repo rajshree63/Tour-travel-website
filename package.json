@@ -6,9 +6,6 @@
   "scripts": {
     "start": "node server.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
     "express": "^5.2.1",
     "mongoose": "^9.6.2"
